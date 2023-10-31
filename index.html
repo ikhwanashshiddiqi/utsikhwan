@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Personal Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav id="navbar">
+            <img src="gambar/logo.png" class="logo">
+            <ul id="menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">Profile</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#footerContainer">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="header-text">
+            <p>Hai,</p>
+            <h1>Saya <span>Ikhwan</span><br>Mahasiswa Sistem Informasi</h1>
+        </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="aboutcol1">
+                    <img src="gambar/almet.jpg">
+                </div>
+                <div class="aboutcol2">
+                    <h1 class="anak">Profil Saya</h1>
+                    <p>Nama lengkap     : Ikhwan Ash-Shiddiqi<br>
+                    Asal        : Solok, Sumatera Barat<br><br>
+                Saya adalah anak keempat dari 5 orang bersaudara. Sekarang sedang berkuliah di salah satu Universitas di Riau yaitu
+             Universitas Islam Negeri Sultan Syarif Kasim Riau. Sekarang sedang menempuh kuliah di Jurusan Sistem Informasi 
+            dan telah memasuki semester ketiga.</p>
+                
+                <div class="tabtitle">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Hobi</p>
+                    <p class="tab-links" onclick="opentab('experience')">Pendidikan</p>
+                    <p class="tab-links" onclick="opentab('education')">Organisasi</p>
+                </div>
+
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Olahraga</span><br>Bermain Basket</li>
+                        <li><span>Game</span><br>Bermain game console</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2009</span><br>TK Islam Luqmanul Hakim</li>
+                        <li><span>2010</span><br>MIN Kota Solok</li>
+                        <li><span>2016</span><br>MTsN 2 Solok</li>
+                        <li><span>2019</span><br>SMAN 2 Sumatera Barat</li>
+                        <li><span>2022</span><br>UIN Suska Riau</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020-2021</span><br>Pengurus Masjid SMAN 2 Sumatera Barat<br>
+                        Divisi Dakwah dan Pendidikan</li>
+                        <li><span>2023</span><br>Himpunan Mahasiswa Sistem Informasi<br>
+                        Divisi Keagamaan</li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+        </div>
+
+    <div id="gallery">
+        <div class="container">
+            <h1 class="anak">Gallery Saya</h1>
+            <div class="galleries">
+                <div>
+                    <h2>Fortafaste</h2>
+                    <a href="#gb1">
+                    <img src="gambar/fortafaste.JPG" alt="fortafaste">
+                    </a>
+                    <div class="overlay" id="gb1">
+                        <a href="#" class="close">X</a> 
+                        <a href="#gb5" class="prev">prev</a>                           
+                        <img src="gambar/fortafaste.JPG" alt="">
+                        <a href="#gb2" class="next">next</a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Keluarga</h2>
+                    <a href="#gb2">
+                    <img src="gambar/keluarga.JPG" alt="keluarga">
+                    </a>
+                    <div class="overlay" id="gb2">
+                        <a href="#" class="close">X</a> 
+                        <a href="#gb1" class="prev">prev</a>                           
+                        <img src="gambar/keluarga.JPG" alt="">
+                        <a href="#gb3" class="next">next</a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Fortasi</h2>
+                    <a href="#gb3">
+                    <img src="gambar/fortasi.JPG" alt="">
+                    </a>
+                    <div class="overlay" id="gb3">
+                        <a href="#" class="close">X</a> 
+                        <a href="#gb2" class="prev">prev</a>                           
+                        <img src="gambar/fortasi.JPG" alt="">
+                        <a href="#gb4" class="next">next</a>
+                    </div>
+                </div>
+            </div>
+            <div class="galleries2">
+                <div>
+                    <h2>Seminar</h2>
+                    <a href="#gb4">
+                    <img src="gambar/miladrame.JPG" alt="fortafaste">
+                    </a>
+                    <div class="overlay" id="gb4">
+                        <a href="#" class="close">X</a> 
+                        <a href="#gb3" class="prev">prev</a>                           
+                        <img src="gambar/miladrame.JPG" alt="">
+                        <a href="#gb5" class="next">next</a>
+                    </div>
+                </div>
+                <div>
+                    <h2>Pendidikan Organisasi</h2>
+                    <a href="#gb5">
+                    <img src="gambar/porame.JPG" alt="keluarga">
+                    </a>
+                    <div class="overlay" id="gb5">
+                        <a href="#" class="close">X</a> 
+                        <a href="#gb4" class="prev">prev</a>                           
+                        <img src="gambar/porame.JPG" alt="">
+                        <a href="#gb1" class="next">next</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="activities">
+        <div class="container1">
+            <h1 class="anak">Aktifitas</h1>
+            <div class="aktifitas">
+                <div class="act1">
+                    <h3>Saya adalah seorang mahasiswa.</h3>
+                    <img src="gambar/IMG_6333 (1).jpg" alt="mahasiswa">
+                </div>
+                <div class="act2">
+                    <h3>Saya mengikuti Himpunan Mahasiswa di kampus.<br>
+                    Himpunan Mahasiswa Sistem Informasi UIN SUSKA RIAU</h3>
+                    <img src="gambar/hima.jpg" alt="hima">
+                </div>
+                
+                <div class="act3">
+                    <h3>Pernah menjadi panitia beberapa acara kampus</h3>
+                    <p></p>
+                    <p></p>
+                <div>
+                    <h2>PORSI</h2>
+                    <img src="gambar/porsi.jpg" alt="porsi">
+                </div>   
+                <div>
+                    <h2>Milad</h2>
+                    <img src="gambar/miladrame.JPG" alt="milad">
+                </div>
+                <div>
+                    <h2>Bumasi</h2>
+                    <img src="gambar/bumasi.jpg" alt="bumasi">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footerContainer">
+        <div class="icon">
+            <h2 id="#contact">Contact Us</h2>
+            <div class="satu">
+                <a href="mailto:[ikhwanashshiddiqi23@gmail.com]">
+                <img src="gambar/icons8-email-50.png" alt="email">
+                </a>
+            </div>
+            <div class="dua">
+                <a href="https://www.instagram.com/ikhwanshiddiqi/">
+                <img src="gambar/icons8-instagram-50.png" alt="instagram">
+                </a>
+            </div>
+            <div class="tiga">
+                <a href="https://api.whatsapp.com/send/?phone=6282287212466&text&type=phone_number&app_absent=0">
+                <img src="gambar/icons8-whatsapp-50.png" alt="whatsapp">
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div id="copy">
+        <div class="cr">
+            <h2>Copyright 2023. ikhwanashshiddiqi.</h2>
+        </div>
+    </div>
+
+
+<script>
+
+    var navbar = document.getElementById("navbar");
+    var menu = document.getElementById("menu");
+
+    window.onscroll = function(){
+        if(window.pageYOffset >= menu.offsetTop){
+            navbar.classList.add("sticky");
+        }
+        else{
+            navbar.classList.remove("sticky");
+        }
+    }
+
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+</body>
+</html>
